@@ -1,15 +1,44 @@
-# Object Detection with YOLOv8
+# Object Detection using YOLO
 
-This project uses the YOLO (You Only Look Once) algorithm, specifically YOLOv8, to perform object detection on video files. It utilizes the Ultralytics' YOLO implementation. The code detects objects frame by frame in each video and outputs the total number of objects detected. It also gives the option to visualize the detection results. Finally, it saves the detected objects and their details to a text file.
+This project provides an easy-to-use implementation for detecting objects in videos using the YOLO (You Only Look Once) model.
 
-## Dependencies
+## Features
+- Supports multiple video formats including `.mp4`, `.avi`, `.flv`, `.mkv`, and `.mov`.
+- Organized code structure with clear separation of concerns.
+- Logs detection results to a dedicated folder.
+- Progress bar for video processing.
+- Error handling for video processing.
 
-- `cv2`: OpenCV for reading and processing video files
-- `os`: Standard Python library for OS dependent functionalities
-- `ultralytics.yolo.v8`: Ultralytics' implementation of YOLOv8 for object detection
+## Prerequisites
+- Python 3.x
+- OpenCV
+- Ultralytics YOLO
 
-To install these dependencies, you can use pip:
+## Getting Started
+1. **Clone the Repository**:
+\`\`\`
+git clone https://github.com/your_username/your_project_name.git
+cd your_project_name
+\`\`\`
 
-```bash
-pip install opencv-python
-pip install ultralytics
+2. **Install Dependencies**:
+\`\`\`
+pip install -r requirements.txt
+\`\`\`
+
+3. **Run the Object Detector**:
+\`\`\`
+python main.py
+\`\`\`
+
+## Directory Structure
+- `object_detector.py`: Contains the main class for object detection.
+- `main.py`: Entry point of the program.
+- `utils.py`: Utility functions for the project.
+- `logs/`: Folder where the detection results are saved.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
