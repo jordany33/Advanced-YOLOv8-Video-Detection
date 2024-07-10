@@ -10,5 +10,4 @@ def save_results_to_file(results, video_file, log_folder):
     result_file = os.path.join(log_folder, f'{os.path.splitext(video_file)[0]}_results.txt')
     with open(result_file, 'w') as file:
         for result in tqdm(results, desc="Saving results"):
-            # This assumes result can be converted to string directly. Modify if not the case.
             file.write(str(result) + '\n')
