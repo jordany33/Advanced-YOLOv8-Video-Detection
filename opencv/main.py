@@ -2,7 +2,6 @@ import argparse
 from object_detector import ObjectDetector
 
 def main(model_path, video_folder, show_detection=True):
-    # Run the object detector
     object_detector = ObjectDetector(model_path, video_folder, show_detection)
     object_detector.process_videos()
 
