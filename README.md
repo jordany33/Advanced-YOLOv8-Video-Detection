@@ -17,7 +17,7 @@ This project provides an easy-to-use implementation for detecting objects in vid
 ## Getting Started
 1. **Clone the Repository**:
 \`\`\`
-git clone https://github.com/jordany33/Advanced-YOLOv8-Video_Detection.git
+git clone https://github.com/jordany33/Advanced-YOLOv8-Video-Detection.git
 cd Advanced-YOLOv8-Video_Detection
 \`\`\`
 
